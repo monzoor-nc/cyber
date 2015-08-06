@@ -1,0 +1,15 @@
+/**************************************************************
+	Panel
+***************************************************************/
+
+.panel-common{
+	&>.panel-heading {
+	    color: #fff;
+	    background-color: $sea-green;
+	    border-color: $sea-green;
+	    border-radius: 0;
+	    font-weight: bold;
+	   
+	}
+}
+ 
