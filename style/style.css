@@ -187,35 +187,51 @@ footer .panel-footer {
   font-size: 11px;
 }
 
-.question_wrapper {
+.question_wrapper, .answer_wrapper {
   margin-top: 30px;
 }
-.question_wrapper .question_number {
+.question_wrapper .question_number, .question_wrapper .answer_header, .answer_wrapper .question_number, .answer_wrapper .answer_header {
   margin-bottom: 10px;
   font-size: 12px;
 }
-.question_wrapper .question {
+.question_wrapper .question, .answer_wrapper .question {
   font-weight: bold;
   font-size: 17px;
   margin-bottom: 10px;
 }
-.question_wrapper select {
+.question_wrapper .question, .question_wrapper .answer, .answer_wrapper .question, .answer_wrapper .answer {
+  font-weight: bold;
+  font-size: 17px;
+  margin-bottom: 10px;
+}
+.question_wrapper select, .answer_wrapper select {
   margin-bottom: 20px;
 }
-.question_wrapper .form-control {
+.question_wrapper .form-control, .answer_wrapper .form-control {
   border-radius: 0;
   -webkit-border-radius: 0;
   -moz-border-radius: 0;
 }
-.question_wrapper .sales {
+.question_wrapper .sales, .answer_wrapper .sales {
   margin-bottom: 30px;
   display: inline-block;
 }
-.question_wrapper .sales-header {
+.question_wrapper .sales-header, .answer_wrapper .sales-header {
   margin-top: 30px;
   padding-bottom: 20px;
   border-bottom: 1px solid #eeeeee;
 }
-.question_wrapper .submit-buttons {
+.question_wrapper .submit-buttons, .answer_wrapper .submit-buttons {
   margin-top: 30px;
+}
+
+.answer_wrapper .question {
+  font-weight: normal;
+}
+.answer_wrapper .form-group {
+  border-bottom: 1px solid #eeeeee;
+  padding: 10px 0;
+}
+.answer_wrapper .form-group:last-child {
+  border-bottom: 0px solid #eeeeee;
 }
