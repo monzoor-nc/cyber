@@ -78,3 +78,16 @@ input {
 .no-padding {
 	padding: 0;
 }
+.no-cursor {
+	cursor: text;
+	&.btn-success:hover {
+	    color: #fff;
+    	background-color: #5cb85c;
+    	border-color: #4cae4c;
+	}
+}
+.btn {
+	&.full-width {
+		width: 100%
+	}
+}

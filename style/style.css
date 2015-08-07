@@ -7,7 +7,7 @@ body {
   color: #2c2c2c;
 }
 body.bg {
-  background-color: #469671;
+  background-color: #1FBA9B;
 }
 
 * a {
@@ -68,6 +68,19 @@ input {
 
 .no-padding {
   padding: 0;
+}
+
+.no-cursor {
+  cursor: text;
+}
+.no-cursor.btn-success:hover {
+  color: #fff;
+  background-color: #5cb85c;
+  border-color: #4cae4c;
+}
+
+.btn.full-width {
+  width: 100%;
 }
 
 /**************************************************************
@@ -215,6 +228,7 @@ footer .panel-footer {
 .question_wrapper .sales, .answer_wrapper .sales {
   margin-bottom: 30px;
   display: inline-block;
+  width: 100%;
 }
 .question_wrapper .sales-header, .answer_wrapper .sales-header {
   margin-top: 30px;
@@ -234,4 +248,26 @@ footer .panel-footer {
 }
 .answer_wrapper .form-group:last-child {
   border-bottom: 0px solid #eeeeee;
+}
+
+.new-question {
+  padding-bottom: 34px;
+  padding-top: 20px;
+  border-top: 1px solid #eeeeee;
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.new-question textarea {
+  margin-bottom: 20px;
+}
+
+.mgb {
+  margin-bottom: 20px;
+}
+
+.buttons_wrappers {
+  width: 30%;
+}
+.buttons_wrappers.three_button {
+  width: 43%;
 }
