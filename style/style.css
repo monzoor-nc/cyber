@@ -205,7 +205,7 @@ footer .panel-footer {
 }
 .question_wrapper .question_number, .question_wrapper .answer_header, .answer_wrapper .question_number, .answer_wrapper .answer_header {
   margin-bottom: 10px;
-  font-size: 12px;
+  font-size: 14px;
 }
 .question_wrapper .question, .answer_wrapper .question {
   font-weight: bold;
